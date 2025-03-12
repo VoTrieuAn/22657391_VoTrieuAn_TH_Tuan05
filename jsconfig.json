@@ -1,0 +1,13 @@
+// Thêm cấu hình này để config lại đường dẫn mặc định cho VS Code để nó không gọi ý đường dẫn tương đối mà là gọi ý đường dẫn trong file vite.config mà chúng ta đã khởi tạo
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      // Áp dụng cho tất cả các đường dẫn con hay còn gọi là file con
+      "@components/*": ["src/components/*"],
+      "@libs/*": ["src/libs/*"],
+      "@pages/*": ["src/pages/*"],
+      "@hooks/*": ["src/hooks/*"],
+    }
+  }
+}
