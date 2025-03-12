@@ -5,9 +5,9 @@
     "paths": {
       // Áp dụng cho tất cả các đường dẫn con hay còn gọi là file con
       "@components/*": ["src/components/*"],
-      "@libs/*": ["src/libs/*"],
+      // "@libs/*": ["src/libs/*"],
       "@pages/*": ["src/pages/*"],
-      "@hooks/*": ["src/hooks/*"],
+      // "@hooks/*": ["src/hooks/*"],
     }
   }
 }
